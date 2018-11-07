@@ -2,7 +2,7 @@
 
 ## Overview 
 
-This is the code for [this](https://youtu.be/PngA5YLFuvU) video on Youtube by Siraj Raval on Deep Determinstic Policy Gradients. Its apart of week 9 of 10 of the Move 37 Course at School of AI. 
+This is the code for [this](https://youtu.be/PngA5YLFuvU) video on Youtube by Siraj Raval on Deep Deterministic Policy Gradients. Its apart of week 9 of 10 of the Move 37 Course at School of AI. 
 
 # Table of Contents
 
@@ -73,7 +73,7 @@ If you are running ROS in a VM, there are a couple of steps necessary to make su
 
 #### Enable Networking on VM
 
-- **VMWare**: The default setting should work. To verify, with the VM runnning, go to the Virtual Machine menu > Network Adapter. NAT should be selected.
+- **VMWare**: The default setting should work. To verify, with the VM running, go to the Virtual Machine menu > Network Adapter. NAT should be selected.
 - **VirtualBox**:
   1. In the VirtualBox Manager, go to Global Tools (top-right corner) > Host Network Manager.
   2. Create a new Host-only Network. You can leave the default settings, e.g. Name = "vboxnet0", Ipv4 Address/Mask = "192.168.56.1/24", and DHCP Server enabled.
