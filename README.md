@@ -14,7 +14,7 @@ This is the code for [this](https://youtu.be/PngA5YLFuvU) video on Youtube by Si
 
 # Install
 
-This project uses ROS (Robot Operating System) as the primary communication mechanism between your agent and the simulation. You can either install it on your own machine ("native install"), or use a Udacity-provided Virtual Machine (recommended).
+This project uses ROS (Robot Operating System) as the primary communication mechanism between your agent and the simulation. You can either install it on your own machine ("native install").
 
 ## ROS Virtual Machine
 
