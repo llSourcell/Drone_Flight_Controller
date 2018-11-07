@@ -1,9 +1,8 @@
-# DeepRL Quadcopter Controller
+# Drone Flight Controller
 
-_Teach a Quadcopter How to Fly!_
+## Overview 
 
-In this project, you will design a Deep Reinforcement Learning agent to control several quadcopter flying tasks, including take-off, hover and landing.
-
+This is the code for [this](https://youtu.be/PngA5YLFuvU) video on Youtube by Siraj Raval on Deep Determinstic Policy Gradients. Its apart of week 9 of 10 of the Move 37 Course at School of AI. 
 
 # Table of Contents
 
@@ -41,9 +40,6 @@ To open a terminal in your VM, press `Ctrl+Alt+T`. If prompted "Do you want to s
 ## ROS Native Install
 
 If you choose to install ROS (Robot Operating System) on your own machine, it is recommended that you use Ubuntu 16.04 LTS as your operating system. To install ROS, please follow the instructions here: [ROS Installation](http://wiki.ros.org/kinetic/Installation)
-
-_Note: This method is not supported by Udacity. If you have trouble performing a native install of ROS, please visit [ROS answers](http://answers.ros.org/questions/) or you can try troubleshooting your install with other students in the Udacity Robotics Slack community ([robotics.udacity.com](https://www.robotics.udacity.com)) in the **#ros** channel._
-
 
 # Download
 
@@ -139,8 +135,6 @@ You should see a few messages on the terminal as different nodes get spun up. No
 
 Tip: If you get tired of this two-step startup process, edit the `quad_controller_rl/scripts/drone_sim` script and enter a command that runs the simulator application. It will then be launched automatically with ROS!
 
-_Note: If you want to learn more about how ROS works and how you can use it for robotics applications, you may enroll in Udacity's [Robotics Nanodegree Program](https://www.udacity.com/robotics) and can take the [ROS Essentials](https://classroom.udacity.com/nanodegrees/nd209/parts/af07ae99-7d69-4b45-ab98-3fde8b576a16) module._
-
 ## Implement
 
 Once you have made sure ROS and the simulator are running without any errors, and that they can communicate with each other, try modifying the code in `agents/policy_search.py` - this is a sample agent that runs by default (e.g. add a `print` statement). Every time you make a change, you will need to stop the simulator (press `Esc` with the simulator window active), and shutdown ROS (press `Ctrl+C` in the terminal). Save your change, and `roslaunch` again.
@@ -151,15 +145,6 @@ Now you should be ready to start coding! Open the project notebook for further i
 $ jupyter notebook src/RL-Quadcopter/quad_controller_rl/notebooks/RL-Quadcopter.ipynb
 ```
 
-# Submit
+## Credits 
 
-Complete the required sections in the notebook. Once done, save/export the notebook as a PDF or HTML file. This will serve as your project report.
-
-If you are enrolled in a Udacity Nanodegree program, you can submit your completed project for review. Prepare and upload a zip file that includes the following:
-
-- `RL-Quadcopter.ipynb`: Project notebook with all sections completed.
-- `RL-Quadcopter.pdf` / `RL-Quadcopter.html`: PDF or HTML report (which can be an export of the notebook).
-- `quad_controller_rl/`: Python package with your code in the following sub-packages:
-  - `tasks/`: Your implementation of each task required for this project.
-  - `agents/`: Agents you've implemented for the corresponding tasks.
-  - Any other supporting code or other files used by your project.
+Credits for this code go to [sksq96](https://github.com/sksq96/deep-rl-quadcopter). I've merely created a wrapper to get people started. 
